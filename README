@@ -1,0 +1,17 @@
+#基于[MinQuery][MinQuery]的小程序模板
+<hr/>
+添加基于[validate][wxExtend]的表单验证模块
+添加基于swiper的轮播图模块
+
+添加自己封装的基础库（js，icon）
+仿照cookie封装[Storage][wxCookie]的插件
+
+<br/>
+还添加了压缩的仅供参考
+
+<br/>
+感谢大神分享的小程序系列插件
+
+[MinQuery]:https://github.com/JasonDRZ/MinQuery
+[wxExtend]:https://github.com/skyvow/wx-extend
+[wxCookie]:https://github.com/Ahren110/wxCookie
