@@ -1,0 +1,67 @@
+@import 'public/css/comm/weui.wxss';
+@import 'public/css/comm/icon.wxss';
+
+/*隐藏滚轮*/
+::-webkit-scrollbar { display: none; }
+view, scroll-view, swiper, swiper-item, icon, text, progress, button, checkbox-group, checkbox, form, input, label, picker, radio-group, radio, slider, switch, action-sheet, action-sheet-item, action-sheet-cancel, modal, toast, loading, navigator, audio, image, video, map, canvas { box-sizing: border-box;}
+page { height: 100%; font-family: "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif; background-color: #efeff4; }
+view { box-sizing: border-box; }
+checkbox-group, radio-group { display: block; }
+:before, :after, ::before, ::after { box-sizing: border-box; }
+
+/*公共样式*/
+.com_minheight { min-height: 60px; }
+.com_full { width: 100%; height: 100%; }
+.com_block { display: block; }
+.com_autosize { width: auto; height: auto; }
+.com_fullwidth { width: 100%; }
+.com_fullheight { height: 100%; }
+.com_initHide { opacity: 0 !important; }
+.com_ellipse { text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+
+.com_overflow{overflow: hidden; white-space: nowrap}
+
+.zan-btn--blue { background-color: #00a5f7; color: #fff; }
+.padding25 { padding: 25rpx; }
+.pad_left25 { padding-left: 25rpx; }
+.pad_right25 { padding-right: 25rpx; }
+.bg_fff { background-color: #fff; }
+.valign_top { top: 0; }
+.pull-left { text-align: left; }
+.pull-center { text-align: center; }
+.pull-right { text-align: right; }
+.overflow_space { white-space: nowrap; overflow: hidden; }
+.marginTop200 { margin-top: 200px; }
+.marginTop15 { margin-top: 10px; }
+.marginTop12 { margin-top: 10px; }
+.marginTop10 { margin-top: 10px; }
+.marginTop8 { margin-top: 8px; }
+.marginTop6 { margin-top: 6px; }
+.marginTop4 { margin-top: 4px; }
+.bordertop { border-top: 1px #ccc solid; }
+.borderbot { border-bottom: 1px #ccc solid; }
+.borderright { border-right: 1px #ccc solid; }
+.borderleft { border-left: 1px #ccc solid; }
+.mc_flex { background: #fff; }
+.mc_flex .flex_item { border-left: 1px #ccc solid; text-align: center; font-size: 13px; }
+.mc_flex .flex_item:last-child { border-right: 1px #ccc solid; }
+.weui-btn[type=blue] { background: #00a5f7; color: #fff; }
+.weui-btn[type=blue]:active { background: #0087ca; }
+
+
+
+
+.radius_xxs{border-radius:4px;}
+.radius_xs{border-radius:8px;}
+.radius_s{border-radius:16px;}
+.radius_m{border-radius:50%;}
+.radius_l{border-radius:50px;}
+.radius_xl{border-radius:80px;}
+.radius_xxl{border-radius:100px;}
+.radius_xxxl{border-radius:200px;}
+.radius_xxxxl{border-radius:400px;}
+.mc_item.breakll { word-break: break-all;}
+.font_bold{font-weight:bold;}
+
+.bg_fff{background-color:#fff;}
+.space_nowrap{white-space : nowrap; overflow : hidden; }
